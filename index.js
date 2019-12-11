@@ -1,6 +1,7 @@
 const { Client, Util } = require('discord.js');
 const {prefix} = require("./config.json");
 const YouTube = require('simple-youtube-api');
+const FFMPEG = require("ffmpeg"),
 const ytdl = require('ytdl-core');
 const opus = require("node-opus");
 const gyp = require("node-gyp");
